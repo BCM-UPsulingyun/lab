@@ -30,13 +30,12 @@ function App() {
     <div className="app">
       {/* 顶部黑色通栏 */}
       <div className="top-bar">
-        欢迎访问政协委员通履职服务平台 | 2026年4月23日 星期四
+      欢迎访问浙江省杭州市政协委员通履职服务平台 
       </div>
 
       {/* 头部红色Logo区 */}
       <header className="main-header">
-        <h1>政协委员通</h1>
-        <div>CPPCC Member Service Platform</div>
+        <h1>浙江省杭州市政协委员通</h1>
       </header>
 
       {/* 导航栏 */}
@@ -45,10 +44,10 @@ function App() {
         <NavLinkItem to="/member-home">委员之家</NavLinkItem>
         <NavLinkItem to="/street-group">街道委员小组</NavLinkItem>
         <NavLinkItem to="/sector-info">界别基本情况</NavLinkItem>
-        <NavLinkItem to="/new-era">市政协新时代</NavLinkItem>
+        <NavLinkItem to="/new-era">市政协新时代协商民主实践-上城分中心</NavLinkItem>
         <NavLinkItem to="/performance">委员履职平台</NavLinkItem>
-        <NavLinkItem to="/star-studio">星级委员工作室</NavLinkItem>
-        <NavLinkItem to="/plan-2026">2026履职计划</NavLinkItem>
+        <NavLinkItem to="/star-studio">星级委员工作室风采</NavLinkItem>
+        <NavLinkItem to="/plan-2026">2026年履职计划</NavLinkItem>
       </nav>
 
       {/* 内容区域 - 路由出口 */}
@@ -67,7 +66,7 @@ function App() {
 
       {/* 底部 */}
       <footer className="footer">
-        <p>© 2026 政协委员 版权所有</p>
+        <p>© 2026 浙江省杭州市政协委员 || 版权所有</p>
       </footer>
     </div>
   );
